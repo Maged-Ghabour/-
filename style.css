@@ -11,10 +11,33 @@ body{
   color: #fff;
 }
 
+
+
+.btn-offer{
+  background-color:#546A8C ;
+  color: #fff;
+  border-radius: 20px 0;
+  padding: 10px 20px ;
+
+  box-shadow: 0px 0px 5px #ddd;
+}
+.btn-offer:hover{
+  background-color: #4f637f;
+}
+
+
+
 /* Start Landing */
 .landing{
   position: relative;
 
+
+}
+.landing .img-landing{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-height: 100vh;
 }
 .landing__content{
   text-align: center;
@@ -30,3 +53,43 @@ body{
 color: var(--primary_color);
 }
 /* End  Landing */
+
+
+/* Start Our Success */
+
+.our_success{
+
+}
+.our_success .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  
+}
+.our_success .content p{
+  font-size: 1.5rem;
+}
+.our_success .content h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.our_success .content h3{
+  font-size: 1.5rem;
+  color: var(--primary_color);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.our_success .image{
+
+
+  
+}
+.our_success .image img{
+  max-width: 500px;
+}
+
+
+/* End  Our Success */
