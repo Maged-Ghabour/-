@@ -20,6 +20,7 @@ body {
   color: #fff;
   border-radius: 20px 0;
   padding: 10px 20px;
+  font-size: 1.3rem;
 
   box-shadow: 0px 0px 5px #ddd;
 }
@@ -96,15 +97,15 @@ body {
   flex-direction: column;
 }
 .goals .content p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .goals .content h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 .goals .content h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--primary_color);
   font-weight: bold;
   margin-bottom: 2rem;
@@ -120,7 +121,13 @@ body {
   .goals {
     margin-top: 2rem;
   }
+  .goals .content p {
+    font-size: 1.5rem;
+  }
   .goals .content h2 {
+    font-size: 2rem;
+  }
+  .goals .content h3 {
     font-size: 1.5rem;
   }
   .goals .image img {
@@ -137,7 +144,7 @@ body {
 }
 @media (max-width: 786px) {
   .our-success h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 }
@@ -158,15 +165,15 @@ body {
   flex-direction: column;
 }
 .our_sales .content p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .our_sales .content h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 .our_sales .content h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--primary_color);
   font-weight: bold;
   margin-bottom: 2rem;
@@ -178,7 +185,13 @@ body {
   }
 
   .our_sales .content p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .our_sales .content h2 {
+    font-size: 2rem;
+  }
+  .our_sales .content h3 {
+    font-size: 1.5rem;
   }
 
   .our_sales .image img {
@@ -197,3 +210,8 @@ body {
 }
 
 /* End  Partenrs Section*/
+
+/* Swiprt */
+.swiper-pagination-bullet {
+  background-color: var(--primary_color);
+}

@@ -234,7 +234,7 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 5,
-        spaceBetween: 30,
+        spaceBetween: 20,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -243,6 +243,26 @@
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 2,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1000: {
+            slidesPerView: 4,
+          },
+          1200: {
+            slidesPerView: 5,
+          },
+          1300: {
+            slidesPerView: 6,
+          },
         },
       });
     </script>
