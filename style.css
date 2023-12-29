@@ -215,3 +215,52 @@ body {
 .swiper-pagination-bullet {
   background-color: var(--primary_color);
 }
+
+/* Start Footer */
+footer {
+  margin: 5rem 0;
+}
+
+footer h5 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+footer h5 span {
+  color: var(--primary_color);
+}
+footer .logo {
+  max-width: 150px;
+  margin-bottom: 2rem;
+}
+footer a {
+  text-decoration: none;
+}
+footer a i {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0.3rem;
+  transition: all 0.3s;
+}
+footer a i:hover {
+  transform: scale(1.1);
+  color: var(--primary_color);
+}
+
+@media (max-width: 768px) {
+  footer .col:first-child {
+    margin-bottom: 2rem;
+  }
+  footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  footer a i {
+    font-size: 1.5rem;
+  }
+  .paltform h5,
+  .mar5f h5 {
+    font-size: 1rem;
+  }
+}
+/* End  Footer */
